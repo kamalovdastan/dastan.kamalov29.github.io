@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lifestyle Store | Settings</title>
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js" type="text/javascript"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" type="text/javascript"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body>
+        <nav class="navbar navbar-fixed-top navbar-inverse">
+            <div class="container">
+                <div class="navbar-header">
+                    <button class="navbar-toggle" data-target="#myNavbar" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="index.html" class="navbar-brand">Lifestyle Store</a>
+                </div>
+                <div class="collpase navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="cart.html"><span class="glyphicon glyphicon-shopping-cart"></span> Cart</a></li>
+                        <li class="active"><a href="setting.html"><span class="glyphicon glyphicon-cog"></span> Settings</a></li>
+                        <li><a href="logout.html"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container">
+            <div class="col-md-offset-3 col-md-6">
+                <div class="panel panel-primary" style="padding-top: 6%;">
+                    <div class="panel-heading">
+                        <h3>Change Password</h3>
+                    </div>
+                    <div class="panel-body">
+                        <div class="form-group">
+                            <input class="form-control input-lg" name="old_password" placeholder="Old-Password" type="password" required>
+                        </div>
+
+                        <div class="form-group">
+                            <input class="form-control input-lg" name="new_password" placeholder="New-Password" type="password" required>
+                        </div>
+
+                        <div class="form-group">    
+                            <input class="form-control input-lg" name="re_password" placeholder="Re-enter New-Password" type="password" required>
+                        </div>
+
+                        <div class="form-group"> 
+                             <button class="btn btn-block btn-primary" type="submit" name="setpassword">Submit</button>
+                        </div>
+
+                    </div>
+                    <div class="panel-footer"></div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+    <footer class="navbar-fixed-bottom">
+        <div class="container-fluid" style="background-color: black; color: wheat;">
+        </div>
+    </footer>
+</html>
