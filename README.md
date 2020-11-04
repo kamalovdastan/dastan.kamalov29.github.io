@@ -1,1 +1,0 @@
-# dastan.kamalov29.github.io
