@@ -5,4 +5,4 @@ https://kamalovdastan.github.io/dastan.kamalov29.github.io/index.html
 
 
 ##Photo
-(Снимок экрана 2020-11-05 в 15.00.36.png)
+![Site](img/Site.png)
