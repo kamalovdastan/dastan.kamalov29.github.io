@@ -30,3 +30,9 @@ body{
 #item_list{
     padding-top: 50px;
 }
+footer {
+  text-align: bottom;
+  padding: 10px;
+  background-color: white;
+  color: blue;
+}
